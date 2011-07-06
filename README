@@ -18,6 +18,13 @@ The models included are:
 
   The ``records`` table
 
+These models are compatible with the stock PowerDNS tables listed above.  You
+do not need to make any changes or run any migrations.
+
+There is, however, one migration included in ``db/migrate`` for those have not
+yet installed a PowerDNS database.  It will create the ``domains`` and
+``records`` tables.
+
 Requirements
 ------------
 
