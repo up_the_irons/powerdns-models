@@ -1,0 +1,5 @@
+powerdns_test:
+  adapter: mysql
+  database: powerdns_test
+  username: test
+  password: test
