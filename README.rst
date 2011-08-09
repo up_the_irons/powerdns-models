@@ -37,7 +37,7 @@ Installation
 
 ::
 
-  cd vendors/plugins/
+  cd vendor/plugins/
   git clone git@github.com:up_the_irons/powerdns-models.git
 
 In your ``config/database.yml``, define a ``powerdns_development`` stanza, for
